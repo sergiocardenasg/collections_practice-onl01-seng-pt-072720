@@ -21,6 +21,11 @@ def swap_elements (array)
 end
 
 def reverse_array (array)
+  new_arr = []
+  array.sort do |a, b|
+    new_arr << b <=> a
+  end
+  new_arr
 end
 
 def kesha_maker (array)
