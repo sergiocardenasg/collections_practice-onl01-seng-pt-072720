@@ -34,7 +34,7 @@ end
 def find_a (array)
   new_arr = []
   array.collect { |i| new_arr << i.start_with?("a")}
-  
+
 end
 
 def sum_array (array)
