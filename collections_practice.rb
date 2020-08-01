@@ -32,11 +32,11 @@ end
 
 def find_a (array)
   new_arr = []
-  array.collect { |i| 
+  array.collect { |i|
     if i.start_with?("a")
       new_arr << i
-    else 
-    end 
+    else
+    end
   }
   new_arr
 end
