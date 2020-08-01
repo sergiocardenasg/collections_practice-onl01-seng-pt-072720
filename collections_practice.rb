@@ -22,8 +22,10 @@ end
 
 def reverse_array (array)
   new_arr = []
-  array.sort do |i|
-    new_arr << i.length-1
+  i = 0
+  while i < array.length
+    new_arr << array.length-1
+    i +=1 
   end
   new_arr
 end
