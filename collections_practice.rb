@@ -23,7 +23,7 @@ end
 def reverse_array (array)
   new_arr = []
   array.each do |a, b|
-    new_arr << b <=> a
+    new_arr << b
   end
   new_arr
 end
