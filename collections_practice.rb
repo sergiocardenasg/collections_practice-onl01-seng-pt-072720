@@ -15,13 +15,11 @@ def sort_array_char_count  (array)
 end
 
 def swap_elements (array)
-  array.sort do |i|
-    i[1] <=> i[2]
-  end
+  return array.reverse
 end
 
 def reverse_array (array)
-  return array.reverse
+  return array.reverse(1,2)
 end
 
 def kesha_maker (array)
