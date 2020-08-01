@@ -32,6 +32,8 @@ def kesha_maker (array)
   new_arr = []
   array.each do |word|
     new_arr << word.sub!(word[3], "$")
+  end
+  new_arr
 end
 
 def find_a (array)
