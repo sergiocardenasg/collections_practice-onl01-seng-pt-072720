@@ -45,5 +45,10 @@ def sum_array (array)
 end
 
 def add_s (array)
-  array.collect {|i| i +"s"}
+  array.each_with_index.collect {|i, idx| 
+    if idx == 2
+      i
+    else
+      i +"s"
+    }
 end
