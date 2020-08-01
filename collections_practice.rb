@@ -35,7 +35,6 @@ def find_a (array)
   array.collect { |i|
     if i.start_with?("a")
       new_arr << i
-    else
     end
   }
   new_arr
